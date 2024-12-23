@@ -1,0 +1,54 @@
+nav{
+    width:100%;
+    text-align:center;
+    display:flex;
+    justify-content:space-between;
+    padding:14px 24px;
+    align-items:center;
+    text-align:center;
+    z-index:10;
+    left:0;
+    top:0;
+    padding:4px 0;
+    position:fixed;
+  
+}
+
+.logo{
+    width:80px;
+    margin:0;
+}
+
+ul{
+    list-style:none;
+    display:flex;
+    padding:10px auto;
+    margin:5px auto;
+    align-items:center;
+}
+ul li{
+    margin:15px 30px;
+    text-transform:capitalize;
+    font-size:18px;
+    text-align:center;
+    align-items:center;
+    padding:2px;
+}
+
+ul li:hover{
+    text-decoration:underline;
+    text-decoration-color:white;
+    text-decoration-thickness:3px;
+
+}
+.btn:hover{
+    background-color:cornsilk;
+    color:black;
+
+}
+
+.dark-nav{
+    background-color:darkblue;
+    transition:0.5s;
+}
+

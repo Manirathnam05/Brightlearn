@@ -1,0 +1,25 @@
+.title{
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    text-align:center;
+    flex-direction:column;
+    width:100%;
+    color:black;
+    margin:20px auto;
+    padding:15px auto;
+
+}
+.title #title1{
+   text-transform:uppercase; 
+   color:darkblue;
+   padding: 10px;
+   font-size:20px;
+   font-weight:bold;
+}
+.title h1{
+    font-weight:500px;
+    text-transform:capitalize;
+    padding:5px;
+    color:red;
+}

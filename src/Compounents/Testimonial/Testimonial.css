@@ -1,0 +1,68 @@
+.testimonial{
+    margin:80px auto;
+    padding:0 80px;
+    position: relative;
+    width:90%;
+}
+
+.nexticon{
+    background-color:red;
+    top:50%;
+    right:0;
+    transform:translateY(-50%);
+    position:absolute;
+    padding:15px;
+    width:50px;
+    border-radius:50%;
+    cursor: pointer;
+}
+.backicon {
+    background-color: red; 
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    position: absolute;
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider{
+    overflow:hidden;
+}
+.slider ul{
+    width:200%;
+    overflow-x:hidden;
+    transition:0.4s;
+}
+.slider ul li{
+    width:50%;
+    list-style:none;
+    padding:20px;
+}
+.slide{
+    box-shadow:0 0 20px ;
+    padding:40px;
+    border-radius:10px;
+    line-height:1.4;
+}
+.slide img{
+    width:65px;
+    border:3px solid darkblue;
+    border-radius:50%;
+}
+.user-info{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+    font-size:15px;
+}
+.user-info h3{
+    color:darkblue;
+    padding:2px;
+    margin:5px;
+}
+.user-info span{
+    color:blue;
+}
